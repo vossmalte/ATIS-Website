@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "Passwortgesch&auml;zter Bereich"
+AuthUserFile /home/stud/s_voss/.public_html/test/.htpasswd
+Require valid-user
