@@ -1,0 +1,14 @@
+html {
+	font-family: Arial, Helvetica, sans-serif;
+	align-content: center;
+	/* background-color: #808080; */
+}
+code {
+    background-color: #efefef; /* grau */
+}
+
+/* Fußzeile */
+.footer {
+	font-family: serif;
+	font-size: 10e;
+}
