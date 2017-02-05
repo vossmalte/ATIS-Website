@@ -19,7 +19,7 @@
     <ul>
         <li><a href="ultimate">Ultimate</a></li>
         <li><a href="atis">ATIS - meine Tipps und Tricks</a></li>
-        <li><a href="test">Test area</a>, user=user,pw=2389979753^(sqrt(7+2)^(-1)</li>
+        <li><a href="test">Test area</a>, user=user,pw=0x8e743269^sqrt(7+2)^(-1)</li>
     </ul>
 </p>
 <?php
