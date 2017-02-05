@@ -56,7 +56,7 @@
                         Zugriff auf <code>.htaccess</code> und <code>.htpasswd</code> via <a href="#chmod"><code>chmod</code></a> gewähren.</li>
                 </ol>
             </p>
-            <<?php include("../footer.html") ?>
+            <?php include("../footer.html"); ?>
         </main>
     </body>
 </html>
