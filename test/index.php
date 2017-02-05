@@ -1,5 +1,9 @@
 <html>
-<title>Maltes Notizen</title>
+<head>
+    <title>1,2,1,2, Test, Test</title>
+    <link rel="stylesheet" type="text/css" href="../freestyler.css">
+</head>
+
 <form>
  Save this:
  <input type="text" name="save"><br>
