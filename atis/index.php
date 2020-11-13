@@ -18,10 +18,24 @@
             </ul>
         </header>
         <main>
-            <h2 id="ssh">SSH (Fernzugriff)</h2>
-            <h3>ssh - Kommandozeilenzugriff</h3>
+	    <h2 id="ssh">SSH (Fernzugriff)</h2>
+		<p>
+			Auf dem Client kann man in <code>~/.ssh/config</code> Aliase und Standardbenutzer hinterlegen. Damit erleichtert man den Zugriff.
+		</p>
+	    <h3>ssh - Kommandozeilenzugriff</h3>
+		<p>
+			<code>ssh s_voss@i08fs1.ira.uka.de</code>
+		</p>
             <h3>scp - Dateitransfer</h3>
-
+		<p>
+			<code>scp localfile remote:path</code>
+			oder <code>scp remote:file localpath</code>
+		</p>
+	    <h3>ssh Login ohne Passwort</h3>
+		<p>
+			Mit <code>ssh-keygen</code> auf dem Client Schlüsselpaar erzeugen. Mit Parametern kann man RSA und Schlüssellänge wählen. Möchte man kein Passwort wählen, dann bei der Abfrage nur Enter drücken.
+			<code>ssh-copy-id remote</code> kopiert den öffentlichen Schlüssel auf den Server. Login nun möglich, die Authentifizierung wird durch den Besitz des privaten Schlüssels gewährleistet. Der private Schlüssel kann nun auch auf anderen Rechner verwendet werden.
+		</p>
             <h2 id="html">Studentische Website</h2>
             <h3 id=>Veröffentlichen</h3>
             <p>
@@ -30,7 +44,7 @@
             </p>
             <p id="chmod">
                 Damit die Datei nun auch vom Server öffentlich gemacht wird, musst du auch die Leserechte dafür freigeben. Das funktioniert mit diesem Kommandozeilentool: <br>
-                <code>chmod 705 index.html</code> <br>
+		<code>chmod 705 index.html</code>  oder <code>chmod a+r -R .</code><br>
                 <code>705</code> sind die Zugriffsrechte Read, Write und Execute oktal codiert für die Gruppen User (also du), Gruppe und andere. Die Fünf bei andere gibt also Lese- und Ausführrechte.<br>
                 Tipp: mit <code>chmod 705 -R .</code> macht ihr das gesamte aktuelle Verzeichnis öffentlich.
             </p>
