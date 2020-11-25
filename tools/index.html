@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="../freestyler.css">
+        <title>Digitale Werkzeuge | Malte Voß</title>
+    </head>
+    <body>
+        <header>
+            <h1>Digitale Werkzeuge</h1>
+            <p>
+		    Ein paar Tools, die digitales Arbeiten erleichtern.
+            </p>
+            <h2>Übersicht</h2>
+            <ul>
+                <li><a href="#wsl">WSL - Windows Subsystem für Linux</a></li>
+		<ul>
+			<li>Installation</li>
+			<li>Visual Studio Code</li>
+			<li>GUI nutzen</li>
+		</ul>
+                <li><a href="#pandoc">Markdown in andere Dateiformate umwandeln</a></li>
+            </ul>
+        </header>
+        <main>
+	    <h2 id="wsl">WSL: Windows Subsystem für Linux</h2>
+		<p>
+			WSL ermöglicht die Nutzung einer Linux-Kommandozeile in Windows.
+			Dabei wird ein ganzes Linux installiert, es gibt aber auch ein paar Beschränkungen.
+			Das Linux lebt in seinem eigenen Root, die Windows-Partitionen sind unter 
+			<code>/mnt</code> mit dem Laufwerksbuchstaben eingehängt.
+		</p>
+	    <h3>Installation</h3>
+		<p>
+		Eine ausführliche Anleitung gibt es bei <a href="https://docs.microsoft.com/en-us/windows/wsl/install-win10">Microsoft</a>.
+		Wichtige Schritte sind hier skizziert:
+		<ol>
+			<li>Aktivieren in PowerShell: <code>dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart</code></li>
+			<li>VM aktivieren in PowerShell: <code>dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart</code></li>
+			<li>...</li>
+			<li>Aus dem Microsoft Store die Distribution der Wahl installieren</li>
+		</ol>
+		Neben dem Standard-Terminal, das nach der Installation verfügbar ist, 
+		gibt es im Microsoft Store das Windows Terminal.
+		Es bietet Multi-Tab-Funktionalität und ist gut anpassbar.
+		</p>
+            <h3>Visual Studio Code</h3>
+		<p>
+		<a href="https://code.visualstudio.com/">Visual Studio Code</a> ist eine vielseitige Entwicklungsumgebung. 
+		Startet man VSCode, so wird vorgeschlagen, die passende <a href="https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-wsl">Erweiterung</a> zu installieren.
+		Sie enthält den Remote Explorer.
+		VSCode lässt sich auch aus dem Terminal starten mit <code>code myRepo</code>.
+		</p>
+	    <h3>GUI nutzen</h3>
+		<p>
+		Zunächst lassen sich keine Programme aus der Konsole starten, die ein zusätzlich Fenster öffnen (außer VSCode, aber das funktioniert anders).
+		Dazu gehören zum Beispiel xcalc oder matplotlib.
+		<br>
+		<a href="https://sourceforge.net/projects/vcxsrv/">VcXsrv</a> ist ein xserver für Windows, mit dem auch WSL Fenster erzeugen kann.
+		Nach der Installation gilt es noch das Linux zu konfigurieren mit
+		<code>export DISPLAY=localhost:0.0</code>.
+		Dauerhaft festzumachen in der .bashrc im home-Verzeichnis.
+		</p>
+
+
+            <h2 id="pandoc">Dokumente aus Markdown mit pandoc erzeugen</h2>
+            <h3>Beamer</h3>
+            <p>
+            </p>
+            </p>
+
+            <h3>Textdokumente</h3>
+            <p>
+            </p>
+        </main>
+    </body>
+</html>
