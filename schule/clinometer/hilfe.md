@@ -9,7 +9,4 @@ Je nachdem wie weit du bist, brauchst du an einer anderen Stelle Hilfe. Wähle d
 2. [Gleichungen aufstellen](modell.md)
 3. [Gleichungen lösen](algebra.md)
 
-Wenn du schon fertig bist: Stelle Formeln auf, in denen die Messgrößen auch durch eine Variable gegeben sind.
-
-1. Am besten beginnst du mit einer sauberen Skizze, in die du die bekannten Messgrößen einträgst.
-2. Auch die unbekannten Größen sind von Interesse.
+Wenn du schon fertig bist: Stelle Formeln auf, mit denen man bei einer neuen Messung schnell die Höhe bestimmen kann.
