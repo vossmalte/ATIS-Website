@@ -6,4 +6,4 @@
 3. Am besten erhält die unbekannte Distanz zum Schloss noch eine Variable.
 4. Hier kannst du die möglichen Gleichungen einsehen: [Klick](Zeige Gleichungen!)
 
-[Hier geht es zurück zur Übersicht](hilfe.md)
+[Hier geht es zurück zur Übersicht](hilfe)

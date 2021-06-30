@@ -13,4 +13,4 @@ Unbekannt sind diese Variablen:
 - h: Höhe des Turms
 - u: Abstand der näheren Messung zum Turm
 
-[Hier geht es zurück zur Übersicht](hilfe.md)
+[Hier geht es zurück zur Übersicht](hilfe)

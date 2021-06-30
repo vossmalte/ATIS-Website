@@ -1,6 +1,6 @@
 # Gleichungen lösen
 
-Diese Gleichungen wurden in einem [vorherigen Schritt](showmodell.md) aufgestellt. Natürlich kannst du auch andere Variablennamen verwenden.
+Diese Gleichungen wurden in einem [vorherigen Schritt](showmodell) aufgestellt. Natürlich kannst du auch andere Variablennamen verwenden.
 
 1. tan(β) = h : (a+u)
 2. tan(α) = h : u
@@ -13,4 +13,4 @@ Nun kannst du Gleichung 1 nach h auflösen.
 
 Extra-Aufgabe: Gib den Wert von u an.
 
-[Hier geht es zurück zur Übersicht](hilfe.md)
+[Hier geht es zurück zur Übersicht](hilfe)
